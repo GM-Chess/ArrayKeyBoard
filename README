@@ -1,0 +1,4 @@
+# README.md
+This Project uses the XMC4500 Development board. Which has a ARM Cortex-M4 processor. The MCU was used to create an array keyboard. It implemented a SysTic interupt. 
+In addition, it use pull up and pull down for the array. Then when a key is pressed the onboard led is to turn on for a duration. 
+The next steps is to use a i2c connetion to an OLED screen to display charaters. In additon, use a UART connection for serial communication to a laptop.
